@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4eede;
+    color: #333;
+   
+}
+header {
+    background-color: #f694a0;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}
+main {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height: 1000px;
+}
+
+.descricao{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: justify;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #f694a0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#bolo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+#img{
+    height: 900px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+#descricao{
+text-align: justify;
+}
+
+p{
+    text-align: justify;
+    padding: 0px 80px;
+}
+
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img {
+    width: 30%;
+    margin: 10px 0;
+}
+
+#bolo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
