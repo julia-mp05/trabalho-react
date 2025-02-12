@@ -122,3 +122,12 @@ button {
 button:hover {
     background-color: #45a049;
 }
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+      }
